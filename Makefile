@@ -13,8 +13,8 @@ lint:
 
 .PHONY: catalog
 catalog:
-	go run github.com/argoproj-labs/argocd-notifications/hack/gen catalog
-	go run github.com/argoproj-labs/argocd-notifications/hack/gen docs
+	go run github.com/fch-bsp/argocd-notifications/hack/gen catalog
+	go run github.com/fch-bsp/argocd-notifications/hack/gen docs
 
 .PHONY: manifests
 manifests:
